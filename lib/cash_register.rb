@@ -9,7 +9,7 @@ class CashRegister
         @items = []
     end
 
-    # Min Qty can only be 1. 
+    # Min Qty can only be 1
     def add_item(title, price, quantity = 1)
         @price = price
         @title = title
